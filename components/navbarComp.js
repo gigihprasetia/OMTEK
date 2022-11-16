@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 
 const NavbarComp = () => {
-  // iki branch gigih
   return (
     <div className=" bg-white w-full h-20 border-b-2 shadow-md shadow-gray-400 flex justify-around items-center">
       {[

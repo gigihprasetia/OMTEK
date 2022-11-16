@@ -46,7 +46,6 @@ const ProductUs = () => {
       }
     }
   }, []);
-  console.log(isPhone);
 
   return (
     <div id="produk" className="w-full h-screen  pt-5">

@@ -3,7 +3,7 @@ import CardContact from "./CardComponent/cardContact";
 import { MdLocationPin, MdPhone, MdMail } from "react-icons/md";
 const ContactUs = () => {
   return (
-    <div className="w-full ">
+    <div id="kontak" className="w-full ">
       <div className="w-full flex justify-start">
         <p className="mx-3 text-lg md:text-2xl font-bold text-primary w-44 ">
           Kontak Kami

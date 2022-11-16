@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@material-tailwind/react";
 import Logo from "../public/hero.svg";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 const HeroBanner = () => {
   return (
@@ -10,10 +11,19 @@ const HeroBanner = () => {
         <div className="text-base md:text-xl font-bold px-5">
           <p className="text-white md:text-primary text-lg md:text-2xl">
             Siapapun, dimanapun,
-            <br />
-            bisa memulai
-            <span className="text-orange-600"> kesuksesan.</span>
           </p>
+          <div className="flex text-white md:text-primary text-lg md:text-2xl">
+            <p className="mr-2">Bisa memulai</p>
+            <div className="text-orange-700">
+              <Typewriter
+                options={{
+                  strings: ["Kesuksesan", "Keberhasilan"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </div>
+          </div>
           <p className="  text-white  md:text-primary mt-5">
             Ada pertanyaan? ingin mengenal kami lebih dalam?
           </p>

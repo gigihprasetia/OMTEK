@@ -13,7 +13,7 @@ const CardProduct = ({ image, content, title }) => {
       </div>
 
       <div className="col-span-3 p-1 row-span-3 border-t-2 border-b-2">
-        <p className="text-sm text-gray-700">{title}</p>
+        <p className="text-sm text-gray-700 font-bold">{title}</p>
         <p className="text-xs text-gray-700">{content}</p>
       </div>
       <div className="col-span-3 flex justify-between px-2 py-2 border-b-2 text-xs">

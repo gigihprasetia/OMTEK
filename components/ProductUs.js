@@ -77,13 +77,13 @@ const ProductUs = () => {
               Image: BELANJAAPP,
               title: "Belanja24",
               content:
-                "Aplikasi E-Office merupakan sebuah aplikasi administrasi perkantoran berbasis website untuk memfasilitasi disposisi surat oleh pimpinan (Walikota/Wakil Walikota/Pimpinan OPD), dan melakukan manajemen persuratan sehingga memudahkan dalam proses administrasi, pencarian dan pengarsipan surat.",
+                "SIPLah-BELANJA24 adalah suatu platform pasar daring yang menyediakan beragam kebutuhan barang dan jasa yang dibutuhkan oleh Satuan Pendidikan melalui mitra penyedia yang bekerja sama dengan platform SIPLah-BELANJA24",
             },
             {
               Image: OFFICEAPP,
               title: "E'OFFICE",
               content:
-                "SIPLah-BELANJA24 adalah suatu platform pasar daring yang menyediakan beragam kebutuhan barang dan jasa yang dibutuhkan oleh Satuan Pendidikan melalui mitra penyedia yang bekerja sama dengan platform SIPLah-BELANJA24",
+                "Aplikasi E-Office merupakan sebuah aplikasi administrasi perkantoran berbasis website untuk memfasilitasi disposisi surat oleh pimpinan (Walikota/Wakil Walikota/Pimpinan OPD), dan melakukan manajemen persuratan sehingga memudahkan dalam proses administrasi, pencarian dan pengarsipan surat.",
             },
             {
               Image: BUKUAPP,
